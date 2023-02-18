@@ -1,3 +1,16 @@
 .title {
     color: blue;
 }
+
+.fitpic {
+    position: relative;
+    display: flex;
+    height: 15%;
+    width: 15%;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
