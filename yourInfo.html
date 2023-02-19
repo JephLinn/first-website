@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <title>Your Info</title>
@@ -22,5 +22,40 @@
 
             <a href="imglink.html">Images</a>
         </span>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Your Info</legend>
+
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <p>Which area(s) would you like to work on? Check all that apply:</p>
+                    <input type="checkbox" id="exercise" name="exercise" value="Exercise">
+                    <label for="exercise">Exercise</label><br>
+                    <input type="checkbox" id="diet" name="diet" name="diet" value="Diet">
+                    <label for="diet">Diet</label><br>
+                    <input type="checkbox" id="sleep" name="sleep" name="sleep" value="Sleep">
+                    <label for="sleep">Sleep</label>
+                </div>
+
+                <div>
+                    <label for="addInfo">Is there anything else youwould like us to know?</label><br>
+                    <textarea id="addInfo" name="info"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
     </body>
 </html>
