@@ -14,3 +14,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.img1 {
+    position: relative;
+    display: flex;
+    justify-items: space-between;
+}
+
+.img2 {
+    position: relative;
+    display: flex;
+    justify-items: space-between;
+}
