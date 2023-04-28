@@ -13,6 +13,8 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    color: red;
+    background-color: black;
 }
 
 .img1 {
@@ -25,4 +27,64 @@
     position: relative;
     display: flex;
     justify-items: space-between;
+}
+
+body {
+    background-image: url("gymBG.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+  }
+
+div {
+    color: fuchsia;
+}
+
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: crimson;
+}
+
+.lee {
+    width: 462px;
+    aspect-ratio: auto 924 / 519;
+    height: 269px;
+}
+
+.tea {
+    width: 462px;
+    aspect-ratio: auto 924 / 519;
+    height: 269px;
+}
+
+.sleep {
+    width: 462px;
+    aspect-ratio: auto 924 / 519;
+    height: 269px;
+}
+
+.thai {
+    width: 462px;
+    aspect-ratio: auto 924 / 519;
+    height: 269px;
+}
+
+.fruit {
+    width: 462px;
+    aspect-ratio: auto 924 / 519;
+    height: 269px;
+}
+
+.steak_eggs {
+    width: 462px;
+    aspect-ratio: auto 924 / 519;
+    height: 269px;
+}
+
+.legText {
+    color: crimson;
 }
